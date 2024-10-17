@@ -3,7 +3,7 @@ class stringCalculation{
         if (str === '') return 0;
         let numStr = str;
         let delimiters = ',';
-
+        numStr = numStr.replace(/\n/g, delimiters); 
         const numArray = numStr.split(delimiters);
         console.log(numArray);
         let sum = 0;
