@@ -2,7 +2,7 @@ import { expect } from 'chai';
 import stringCalculation from './stringCalculation.js';
 
 describe('stringCalculation', function(){
-    const StringCalculator =new stringCalculation();
+    const calculator =new stringCalculation();
 
     it('return 0 for empty string', function() {  
         expect(calculator.add('')).to.equal(0);  

@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "string calculation with TDD",
   "main": "index",
+  "type": "module",
   "scripts": {
-    "test": "npx mocha StringCalculator.test.mjs"
+    "test": "npx mocha stringCaculation.test.mjs"
   },
   "repository": {
     "type": "git",
