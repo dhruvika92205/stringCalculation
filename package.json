@@ -1,0 +1,23 @@
+{
+  "name": "stringcalculator",
+  "version": "1.0.0",
+  "description": "string calculation with TDD",
+  "main": "index",
+  "scripts": {
+    "test": "npx mocha StringCalculator.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhruvika92205/stringCalculation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhruvika92205/stringCalculation/issues"
+  },
+  "homepage": "https://github.com/dhruvika92205/stringCalculation#readme",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "express": "^4.21.1"
+  }
+}
